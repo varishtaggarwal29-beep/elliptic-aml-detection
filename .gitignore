@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Large / raw datasets
+data/*.csv
+*.csv
+!outputs/model_results.csv
+
+# Generated outputs
+outputs/*.csv
+outputs/*.png
